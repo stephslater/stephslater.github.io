@@ -23,12 +23,13 @@ url: "https://stephslater.github.io/" # the base hostname & protocol for your si
 #url: "http://127.0.0.1:4000/"
 twitter_username: jekyllrb
 github_username:  stephslater
+repository: "stephslater/stephslater.github.io"
 
 # Build settings
 timezone: UTC
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
